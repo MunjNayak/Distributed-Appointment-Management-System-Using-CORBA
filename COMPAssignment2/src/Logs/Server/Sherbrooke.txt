@@ -1,0 +1,34 @@
+DATE: 2022-02-20 08:23:01 AM  Server is Up & Running
+DATE: 2022-02-20 08:23:01 AM  UDP Server Started at port 6666
+DATE: 2022-02-20 09:12:03 AM  Server is Up & Running
+DATE: 2022-02-20 09:12:03 AM  UDP Server Started at port 6666
+DATE: 2022-02-20 09:21:08 AM PatientID: Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-20 09:21:08 AM PatientID: Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+;
+DATE: 2022-02-20 11:24:27 AM  Server is Up & Running
+DATE: 2022-02-20 11:24:27 AM  UDP Server Started at port 6666
+DATE: 2022-02-20 08:41:12 PM  Server is Up & Running
+DATE: 2022-02-20 08:41:12 PM  UDP Server Started at port 6666
+DATE: 2022-02-21 11:00:46 AM  Server is Up & Running
+DATE: 2022-02-21 11:00:46 AM  UDP Server Started at port 6666
+DATE: 2022-02-23 12:28:35 PM  Server is Up & Running
+DATE: 2022-02-23 12:28:35 PM  UDP Server Started at port 6666
+DATE: 2022-02-23 12:30:33 PM PatientID: Admin | RequestType:  UDP request received listAppointmentAvailability  | RequestParameters:  appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-23 12:30:33 PM PatientID: Admin | RequestType:  UDP reply sent listAppointmentAvailability  | RequestParameters:  appointmentID: null appointmentType: Physician  | ServerResponse: SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+;
+DATE: 2022-02-23 12:36:00 PM PatientID: Admin | RequestType:  CORBA addAppointment  | RequestParameters:  appointmentID: SHEM020101 appointmentType: Physician bookingCapacity 3  | ServerResponse: Success: Appointment SHEM020101 added successfully
+DATE: 2022-02-23 02:34:03 PM  Server is Up & Running
+DATE: 2022-02-23 02:34:03 PM  UDP Server Started at port 6666
+DATE: 2022-02-23 02:36:15 PM PatientID: Admin | RequestType:  CORBA addAppointment  | RequestParameters:  appointmentID: SHEM050101 appointmentType: Physician bookingCapacity 3  | ServerResponse: Success: Appointment SHEM050101 added successfully
+DATE: 2022-02-23 02:38:16 PM PatientID: QUEP1234 | RequestType:  UDP request received bookAppointment  | RequestParameters:  appointmentID: SHEM050101 appointmentType: Physician  | ServerResponse:  ...
+DATE: 2022-02-23 02:38:16 PM PatientID: QUEP1234 | RequestType:  CORBA bookAppointment  | RequestParameters:  appointmentID: SHEM050101 appointmentType: Physician  | ServerResponse: Success: Appointment SHEM050101 Booked Successfully
+DATE: 2022-02-23 02:38:16 PM PatientID: QUEP1234 | RequestType:  UDP reply sent bookAppointment  | RequestParameters:  appointmentID: SHEM050101 appointmentType: Physician  | ServerResponse: Success: Appointment SHEM050101 Booked Successfully;
+DATE: 2022-02-23 02:40:22 PM PatientID: Admin | RequestType:  CORBA addAppointment  | RequestParameters:  appointmentID: SHEE030101 appointmentType: Physician bookingCapacity 3  | ServerResponse: Success: Appointment SHEE030101 added successfully
+DATE: 2022-03-05 06:54:28 PM  Server is Up & Running
+DATE: 2022-03-05 06:54:28 PM  UDP Server Started at port 6666
+DATE: 2022-03-05 06:59:30 PM  Server is Up & Running
+DATE: 2022-03-05 06:59:30 PM  UDP Server Started at port 6666

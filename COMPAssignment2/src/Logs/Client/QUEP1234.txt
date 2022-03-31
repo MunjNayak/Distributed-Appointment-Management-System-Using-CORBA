@@ -1,0 +1,108 @@
+DATE: 2022-02-23 12:30:49 PM  login attempt
+DATE: 2022-02-23 12:30:49 PM  Patient Login successful
+DATE: 2022-02-23 12:30:56 PM  attempting to bookAppointment
+DATE: 2022-02-23 12:30:56 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-23 12:31:17 PM  attempting to bookAppointment
+DATE: 2022-02-23 12:31:17 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM030101 appointmentType: Surgeon  | Server Response: Success: Appointment MTLM030101 Booked Successfully
+DATE: 2022-02-23 12:31:39 PM  attempting to bookAppointment
+DATE: 2022-02-23 12:31:39 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM040101 appointmentType: Physician  | Server Response: Failed: Appointment MTLM040101 Does not exists
+DATE: 2022-02-23 12:32:30 PM  attempting to bookAppointment
+DATE: 2022-02-23 12:32:30 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM040101 appointmentType: Dental  | Server Response: Success: Appointment MTLM040101 Booked Successfully
+DATE: 2022-02-23 12:32:33 PM  attempting to getAppointmentSchedule
+DATE: 2022-02-23 12:32:33 PM Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Physician:
+MTLM010101 ||
+=====================================
+Surgeon:
+MTLM030101 ||
+=====================================
+Dental:
+MTLM040101 ||
+=====================================
+
+DATE: 2022-02-23 12:33:39 PM  attempting to bookAppointment
+DATE: 2022-02-23 12:33:39 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM100101 appointmentType: Physician  | Server Response: Success: Appointment MTLM100101 Booked Successfully
+DATE: 2022-02-23 12:34:12 PM  attempting to getAppointmentSchedule
+DATE: 2022-02-23 12:34:12 PM Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Physician:
+MTLM010101 ||MTLM100101 ||
+=====================================
+Surgeon:
+MTLM030101 ||
+=====================================
+Dental:
+MTLM040101 ||
+=====================================
+
+DATE: 2022-02-23 12:35:37 PM  attempting to Logout
+DATE: 2022-02-23 12:36:06 PM  login attempt
+DATE: 2022-02-23 12:36:06 PM  Patient Login successful
+DATE: 2022-02-23 12:36:08 PM  attempting to getAppointmentSchedule
+DATE: 2022-02-23 12:36:08 PM Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Physician:
+MTLM010101 ||MTLM100101 ||
+=====================================
+Surgeon:
+MTLM030101 ||
+=====================================
+Dental:
+MTLM040101 ||
+=====================================
+
+DATE: 2022-02-23 12:36:19 PM  attempting to bookAppointment
+DATE: 2022-02-23 12:36:19 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: SHEM020101 appointmentType: Physician  | Server Response: Failed: You Cannot Book Appointment in Other Servers For This Week(Max Weekly Limit = 3)
+DATE: 2022-02-23 12:36:25 PM  attempting to Logout
+DATE: 2022-02-23 02:37:48 PM  login attempt
+DATE: 2022-02-23 02:37:48 PM  Patient Login successful
+DATE: 2022-02-23 02:37:54 PM  attempting to bookAppointment
+DATE: 2022-02-23 02:37:54 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-23 02:38:04 PM  attempting to bookAppointment
+DATE: 2022-02-23 02:38:04 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM020101 appointmentType: Surgeon  | Server Response: Success: Appointment MTLM020101 Booked Successfully
+DATE: 2022-02-23 02:38:16 PM  attempting to bookAppointment
+DATE: 2022-02-23 02:38:16 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: SHEM050101 appointmentType: Physician  | Server Response: Success: Appointment SHEM050101 Booked Successfully
+DATE: 2022-02-23 02:39:52 PM  attempting to bookAppointment
+DATE: 2022-02-23 02:39:52 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Dental  | Server Response: Failed: You Cannot Book Appointment in Other Servers For This Week(Max Weekly Limit = 3)
+DATE: 2022-02-23 02:39:55 PM  attempting to Logout
+DATE: 2022-02-23 02:40:29 PM  login attempt
+DATE: 2022-02-23 02:40:29 PM  Patient Login successful
+DATE: 2022-02-23 02:40:37 PM  attempting to bookAppointment
+DATE: 2022-02-23 02:40:37 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: SHEE030101 appointmentType: Physician  | Server Response: Failed: You Cannot Book Appointment in Other Servers For This Week(Max Weekly Limit = 3)
+DATE: 2022-02-23 02:41:05 PM  attempting to swapAppointment
+DATE: 2022-02-23 02:41:05 PM Patient Action:  swapAppointment | RequestParameters:  oldAppointmentID: SHEE030101 oldAppointmentType: Physician newAppointmentID: MTLM100101 newAppointmentType: Physician  | Server Response: Failed: You QUEP1234 Are Not Registered in SHEE030101
+DATE: 2022-02-23 02:41:29 PM  attempting to getAppointmentSchedule
+DATE: 2022-02-23 02:41:29 PM Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Physician:
+MTLM010101 ||SHEM050101 ||
+=====================================
+Surgeon:
+MTLM020101 ||
+=====================================
+
+DATE: 2022-02-23 02:42:04 PM  attempting to bookAppointment
+DATE: 2022-02-23 02:42:04 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Failed: Appointment MTLM010101 Already Booked
+DATE: 2022-02-23 02:42:07 PM  attempting to getAppointmentSchedule
+DATE: 2022-02-23 02:42:07 PM Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Physician:
+MTLM010101 ||SHEM050101 ||
+=====================================
+Surgeon:
+MTLM020101 ||
+=====================================
+
+DATE: 2022-02-23 02:42:46 PM  attempting to swapAppointment
+DATE: 2022-02-23 02:42:46 PM Patient Action:  swapAppointment | RequestParameters:  oldAppointmentID: MTLM010101 oldAppointmentType: Physician newAppointmentID: MTLM100101 newAppointmentType: Physician  | Server Response: Success: Appointment MTLM010101 swapped with MTLM100101
+DATE: 2022-02-23 02:42:51 PM  attempting to getAppointmentSchedule
+DATE: 2022-02-23 02:42:51 PM Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Physician:
+SHEM050101 ||MTLM100101 ||
+=====================================
+Surgeon:
+MTLM020101 ||
+=====================================
+
+DATE: 2022-02-23 02:43:00 PM  attempting to bookAppointment
+DATE: 2022-02-23 02:43:00 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-23 02:43:02 PM  attempting to getAppointmentSchedule
+DATE: 2022-02-23 02:43:02 PM Patient Action:  bookAppointment | RequestParameters:  null  | Server Response: Physician:
+SHEM050101 ||MTLM100101 ||MTLM010101 ||
+=====================================
+Surgeon:
+MTLM020101 ||
+=====================================
+
+DATE: 2022-02-23 02:43:08 PM  attempting ORB shutdown
+DATE: 2022-02-23 02:43:08 PM  shutdown

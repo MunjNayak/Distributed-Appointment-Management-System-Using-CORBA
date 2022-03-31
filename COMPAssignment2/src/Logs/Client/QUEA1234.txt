@@ -1,0 +1,20 @@
+DATE: 2022-02-20 09:21:30 AM  login attempt
+DATE: 2022-02-20 09:21:30 AM  Admin Login successful
+DATE: 2022-02-20 09:21:43 AM  attempting to addAppointment
+DATE: 2022-02-20 09:21:43 AM Patient Action:  addAppointment | RequestParameters:  appointmentID: QUEM010101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment QUEM010101 added successfully
+DATE: 2022-02-20 09:22:01 AM  attempting to bookAppointment
+DATE: 2022-02-20 09:22:01 AM Patient Action:  bookAppointment | RequestParameters:  patientID: QUEP1234 appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-20 09:22:31 AM  attempting to swapAppointment
+DATE: 2022-02-20 09:22:31 AM Patient Action:  swapAppointment | RequestParameters:  oldAppointmentID: MTLM010101 oldAppointmentType: Physician newAppointmentID: QUEM010101 newAppointmentType: Physician  | Server Response: Success: Appointment MTLM010101 swapped with QUEM010101
+DATE: 2022-02-20 09:22:42 AM  attempting to getAppointmentSchedule
+DATE: 2022-02-20 09:22:42 AM Patient Action:  getAppointmentSchedule | RequestParameters:  patientID: QUEP1234  | Server Response: Physician:
+QUEM010101 ||
+=====================================
+
+DATE: 2022-02-20 09:22:47 AM  attempting ORB shutdown
+DATE: 2022-02-20 09:22:47 AM  shutdown
+DATE: 2022-02-23 02:35:08 PM  login attempt
+DATE: 2022-02-23 02:35:08 PM  Admin Login successful
+DATE: 2022-02-23 02:35:24 PM  attempting to addAppointment
+DATE: 2022-02-23 02:35:24 PM Patient Action:  addAppointment | RequestParameters:  appointmentID: QUEM030101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment QUEM030101 added successfully
+DATE: 2022-02-23 02:35:39 PM attempting to Logout

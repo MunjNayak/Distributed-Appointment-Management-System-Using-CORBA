@@ -1,0 +1,15 @@
+DATE: 2022-02-23 12:35:43 PM  login attempt
+DATE: 2022-02-23 12:35:43 PM  Admin Login successful
+DATE: 2022-02-23 12:36:00 PM  attempting to addAppointment
+DATE: 2022-02-23 12:36:00 PM Patient Action:  addAppointment | RequestParameters:  appointmentID: SHEM020101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment SHEM020101 added successfully
+DATE: 2022-02-23 12:36:03 PM attempting to Logout
+DATE: 2022-02-23 02:35:43 PM  login attempt
+DATE: 2022-02-23 02:35:43 PM  Admin Login successful
+DATE: 2022-02-23 02:36:15 PM  attempting to addAppointment
+DATE: 2022-02-23 02:36:15 PM Patient Action:  addAppointment | RequestParameters:  appointmentID: SHEM050101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment SHEM050101 added successfully
+DATE: 2022-02-23 02:36:34 PM attempting to Logout
+DATE: 2022-02-23 02:39:58 PM  login attempt
+DATE: 2022-02-23 02:39:58 PM  Admin Login successful
+DATE: 2022-02-23 02:40:22 PM  attempting to addAppointment
+DATE: 2022-02-23 02:40:22 PM Patient Action:  addAppointment | RequestParameters:  appointmentID: SHEE030101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment SHEE030101 added successfully
+DATE: 2022-02-23 02:40:25 PM attempting to Logout

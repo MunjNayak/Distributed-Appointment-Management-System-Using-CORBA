@@ -1,0 +1,4 @@
+DATE: 2022-02-20 08:43:08 PM  login attempt
+DATE: 2022-02-20 08:43:08 PM  Patient Login successful
+DATE: 2022-02-20 08:43:17 PM  attempting to bookAppointment
+DATE: 2022-02-20 08:43:17 PM Patient Action:  bookAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment MTLM010101 Booked Successfully

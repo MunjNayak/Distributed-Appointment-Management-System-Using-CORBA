@@ -1,0 +1,27 @@
+module ServerObjectInterfaceApp
+{
+  interface ServerObjectInterface
+  	{
+		/**
+        * Only admin
+        */
+        string addAppointment(in string appointmentID, in string appointmentType, in long bookingCapacity);
+
+        string removeAppointment(in string appointmentID, in string appointmentType);
+
+        string listAppointmentAvailability(in string appointmentType);
+
+        /**
+        * Both admin and patient
+        */
+        string bookAppointment(in string patientID, in string appointmentID, in string appointmentType);
+
+        string getAppointmentSchedule(in string patientID);
+
+        string cancelAppointment(in string patientID, in string appointmentID, in string appointmentType);
+
+        string swapAppointment(in string patientID, in string newAppointmentID, in string newAppointmentType, in string oldAppointmentID, in string oldAppointmentType);
+
+	    oneway void shutdown();
+    };
+};

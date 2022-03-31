@@ -1,0 +1,5 @@
+start orbd -ORBInitialPort 1050  
+
+start java Server/Server -ORBInitialPort 1050 -ORBInitialHost localhost
+
+start java Client/Client -ORBInitialPort 1050 -ORBInitialHost localhost

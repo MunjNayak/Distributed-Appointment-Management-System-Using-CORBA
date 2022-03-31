@@ -1,0 +1,82 @@
+DATE: 2022-02-20 08:23:31 AM  login attempt
+DATE: 2022-02-20 08:23:31 AM  Admin Login successful
+DATE: 2022-02-20 08:23:41 AM  attempting to addAppointment
+DATE: 2022-02-20 08:23:41 AM Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-20 08:23:44 AM  attempting ORB shutdown
+DATE: 2022-02-20 08:23:44 AM  shutdown
+DATE: 2022-02-20 09:13:15 AM  login attempt
+DATE: 2022-02-20 09:13:15 AM  Admin Login successful
+DATE: 2022-02-20 09:13:25 AM  attempting to addAppointment
+DATE: 2022-02-20 09:13:25 AM Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-20 09:13:39 AM  attempting to addAppointment
+DATE: 2022-02-20 09:13:39 AM Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLA020101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLA020101 added successfully
+DATE: 2022-02-20 09:13:55 AM  attempting to bookAppointment
+DATE: 2022-02-20 09:13:55 AM Patient Action:  bookAppointment | RequestParameters:  patientID: MTLP1234 appointmentID: MTLM010101 appointmentType: Physician  | Server Response: Success: Appointment MTLM010101 Booked Successfully
+DATE: 2022-02-20 09:14:32 AM  attempting to swapAppointment
+DATE: 2022-02-20 09:14:32 AM Patient Action:  swapAppointment | RequestParameters:  oldAppointmentID: MTLM010101 oldAppointmentType: Physician newAppointmentID: MTLM020101 newAppointmentType: Physician  | Server Response: Failed: on Both newAppointment MTLM020101 Booking reason: Failed: Appointment MTLM020101 Does not exists and oldAppointment MTLM010101 Canceling reason: Failed: did not send cancel request for your oldAppointment MTLM010101
+DATE: 2022-02-20 09:15:01 AM  attempting to getAppointmentSchedule
+DATE: 2022-02-20 09:15:01 AM Patient Action:  getAppointmentSchedule | RequestParameters:  patientID: MTLP1234  | Server Response: Physician:
+MTLM010101 ||
+=====================================
+
+DATE: 2022-02-20 09:15:29 AM  attempting to swapAppointment
+DATE: 2022-02-20 09:15:29 AM Patient Action:  swapAppointment | RequestParameters:  oldAppointmentID: MTLM010101 oldAppointmentType: Physician newAppointmentID: MTLA020101 newAppointmentType: Physician  | Server Response: Success: Appointment MTLM010101 swapped with MTLA020101
+DATE: 2022-02-20 09:15:40 AM  attempting to getAppointmentSchedule
+DATE: 2022-02-20 09:15:40 AM Patient Action:  getAppointmentSchedule | RequestParameters:  patientID: MTLP1234  | Server Response: Physician:
+MTLA020101 ||
+=====================================
+
+DATE: 2022-02-20 09:21:08 AM  attempting to listAppointmentAvailability
+DATE: 2022-02-20 09:21:08 AM Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+ (MTLA020101) in the Afternoon of 02/01/2001 Total[Remaining] Capacity: 3[2] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 3[3] || 
+=====================================
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-20 09:21:25 AM attempting to Logout
+DATE: 2022-02-20 08:41:51 PM  login attempt
+DATE: 2022-02-20 08:41:51 PM  Admin Login successful
+DATE: 2022-02-20 08:42:03 PM  attempting to addAppointment
+DATE: 2022-02-20 08:42:03 PM Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-23 12:29:16 PM  login attempt
+DATE: 2022-02-23 12:29:16 PM  Admin Login successful
+DATE: 2022-02-23 12:29:29 PM  attempting to addAppointment
+DATE: 2022-02-23 12:29:29 PM Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-23 12:29:51 PM  attempting to addAppointment
+DATE: 2022-02-23 12:29:51 PM Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM030101 appointmentType: Surgeon appointmentCapacity: 3  | Server Response: Success: Appointment MTLM030101 added successfully
+DATE: 2022-02-23 12:30:10 PM  attempting to addAppointment
+DATE: 2022-02-23 12:30:10 PM Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM040101 appointmentType: Dental appointmentCapacity: 3  | Server Response: Success: Appointment MTLM040101 added successfully
+DATE: 2022-02-23 12:30:28 PM  attempting to addAppointment
+DATE: 2022-02-23 12:30:28 PM Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM100101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLM100101 added successfully
+DATE: 2022-02-23 12:30:33 PM  attempting to listAppointmentAvailability
+DATE: 2022-02-23 12:30:33 PM Patient Action:  listAppointmentAvailability | RequestParameters:  appointmentType: Physician  | Server Response: MONTREAL Server Physician:
+ (MTLM100101) in the Morning of 10/01/2001 Total[Remaining] Capacity: 3[3] ||  (MTLM010101) in the Morning of 01/01/2001 Total[Remaining] Capacity: 3[3] || 
+=====================================
+SHERBROOK Server Physician:
+No Appointments of Type Physician
+=====================================
+QUEBEC Server Physician:
+No Appointments of Type Physician
+=====================================
+
+DATE: 2022-02-23 12:30:44 PM attempting to Logout
+DATE: 2022-02-23 02:34:35 PM  login attempt
+DATE: 2022-02-23 02:34:35 PM  Admin Login successful
+DATE: 2022-02-23 02:34:47 PM  attempting to addAppointment
+DATE: 2022-02-23 02:34:47 PM Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM010101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLM010101 added successfully
+DATE: 2022-02-23 02:35:01 PM  attempting to addAppointment
+DATE: 2022-02-23 02:35:01 PM Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM020101 appointmentType: Surgeon appointmentCapacity: 3  | Server Response: Success: Appointment MTLM020101 added successfully
+DATE: 2022-02-23 02:35:04 PM attempting to Logout
+DATE: 2022-02-23 02:36:38 PM  login attempt
+DATE: 2022-02-23 02:36:38 PM  Admin Login successful
+DATE: 2022-02-23 02:36:53 PM  attempting to addAppointment
+DATE: 2022-02-23 02:36:53 PM Patient Action:  addAppointment | RequestParameters:  appointmentID: MTLM100101 appointmentType: Physician appointmentCapacity: 3  | Server Response: Success: Appointment MTLM100101 added successfully
+DATE: 2022-02-23 02:36:58 PM attempting to Logout
+DATE: 2022-03-05 06:59:44 PM  login attempt
+DATE: 2022-03-05 06:59:44 PM  Admin Login successful
+DATE: 2022-03-05 06:59:47 PM  attempting ORB shutdown
+DATE: 2022-03-05 06:59:47 PM  shutdown
